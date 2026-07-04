@@ -10,9 +10,9 @@ from flask import Flask, request, jsonify, send_from_directory, render_template_
 app = Flask(__name__)
 
 # Configuration paths
-MODEL_WEIGHTS_PATH = "runs/train/ex6_fine_tune/weights/best.pt"
-UPLOAD_FOLDER = r"D:\training porject safecity\app_uploads"
-OUTPUT_FOLDER = r"D:\training porject safecity\runs\detect"
+MODEL_WEIGHTS_PATH = "model/best.pt"
+UPLOAD_FOLDER = r"model/app_uploads"
+OUTPUT_FOLDER = r"model/detect"
 
 # Normalize paths for clean Windows OS handling
 UPLOAD_FOLDER = os.path.abspath(os.path.normpath(UPLOAD_FOLDER))
