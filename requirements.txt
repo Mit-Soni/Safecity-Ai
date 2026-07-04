@@ -1,0 +1,23 @@
+--extra-index-url https://download.pytorch.org/whl/cu121
+
+# Core Frameworks
+flask==3.0.2
+numpy==1.26.4
+scipy==1.17.1
+opencv-python==4.13.0.92
+
+# Imaging and Configurations
+Pillow>=9.5.0,<10.0.0
+PyYAML==6.0.1
+
+# Deep Learning Framework (CUDA 12.1 Optimized)
+torch==2.5.1+cu121
+torchvision==0.20.1+cu121
+
+# YOLOv5 Core Utilities
+ultralytics==8.4.66
+pandas==2.2.1
+requests==2.31.0
+tqdm==4.66.2
+matplotlib==3.8.3
+seaborn==0.13.2
